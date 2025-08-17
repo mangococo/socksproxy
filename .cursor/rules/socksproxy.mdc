@@ -1,0 +1,14 @@
+---
+description: rules of socksproxy
+globs:
+alwaysApply: true
+---
+
+1. 使用 sqlite3 作为数据库
+2. 使用 flask 作为 web 容器
+3. 功能设计请参考 Clash Fow Windows 或 ClashX； 
+4. 支持解析 Clash 订阅配置， 并导入 sqlite 数据库中
+5. 支持解析 .sorl SwitchyOmega 切换配置，并导入“代理切换规则” sqlite 数据库中
+6. 支持两种代理模式
+    6.1 全局直连： 所有使用代理的网络请求将不使用代理
+    6.2 智能代理：按“代理切换规则”对满足要求的请求使用代理，或不使用代理

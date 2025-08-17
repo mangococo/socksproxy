@@ -1,0 +1,14 @@
+---
+description: rules for pyproject
+globs:
+alwaysApply: false
+---
+
+1. 使用 uv 进行包管理
+2. python 兼容版本 3.10+
+3. 所有类定义、字段定义、方法、函数必须有注释
+    使用中文注释
+    注释使用 Google 风格
+
+
+
