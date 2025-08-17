@@ -9,6 +9,7 @@ alwaysApply: false
 3. 所有类定义、字段定义、方法、函数必须有注释
     使用中文注释
     注释使用 Google 风格
+4. 提供单元测试，使用 pytest 框架; 
 
 
 
