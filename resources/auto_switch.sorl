@@ -1,0 +1,36 @@
+[SwitchyOmega Conditions]
+; Require: ZeroOmega >= 2.3.2
+; Date: 2025/8/13
+; Usage: https://github.com/FelisCatus/SwitchyOmega/wiki/RuleListUsage
+
+*.imagedelivery.net
+*.txyz.ai
+*.cloudflare.com
+*.google.com
+!*.easemob.com
+!*.gstatic.com
+*.docker.com
+*.aliyun.com
+*.chatgpt.com
+*.perplexity.ai
+*.quark.cn
+*.redditstatic.com
+*.facebook.com
+*.reddit.com
+*.godaddy.com
+*.jsdelivr.net
+*.mermaidchart.com
+*.duckduckgo.com
+*.bootstrapcdn.com
+*.aliyuncs.com
+*.pronotes.app
+*.gitbook.com
+*.cherry-ai.com
+*.notion.so
+*.facebook.net
+*.trys.ai
+*.gravatar.com
+*.criteo.com
+*.ytimg.com
+*.rlcdn.com
+*.manuals.plus
